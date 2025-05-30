@@ -1,0 +1,191 @@
+/* Body */
+body {
+    width: 1350x;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: "Open Sans", sans-serif;
+    color: #393d41;
+    font-size: 1.2rem;
+    line-height: 1.65;
+}
+
+/* Header */
+
+header {
+    background-color: black;
+    text-align: start;
+}
+
+header img {
+    height: 2em;
+    padding: 1.5em;
+}
+
+/* Main */
+
+.heading {
+    color: #25a2c3;
+    font-weight: bold;
+    padding: 1.5em 1em 1em 1em;
+    line-height: 1;
+}
+
+/* First section */
+
+#first_sec {
+    background-image: url(../images/banner.jpg);
+    background-size: 110%;
+    background-position:  50% 10%;
+    height: 25vh;
+    padding: 5em 0 4em 0;
+    text-align: center;
+}
+
+main h1 {
+    color: #25a2c3;
+    font-family: "Montserrat", sans-serif;
+    line-height: 1.5;
+    font-size: 2.5em;
+}
+
+#first_sec p {
+    padding: 0 11em;
+    margin: 0 0 1em 0;
+}
+
+button {
+    background-color: #f04c2f;
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    font-size: 1.5rem;
+    padding: 0.9em 2em;
+    margin: 0.5em 0 2.5em 0;
+    border: 0;
+    border-radius: 5px;
+}
+
+button a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Second section */
+
+#second_sec {
+    margin: 6em 0;
+    text-align: start;
+    padding-left: 150px;
+    padding-right: 150px;
+    height:600px;
+}
+
+#second_sec img {
+    border-radius: 1000px;
+    width: 35%;
+    display: inline-block;
+}
+
+#second_sec .heading {
+    padding-left: 0;
+}
+
+#second_sec > div > div {
+    display: inline-block;
+    text-align: start;
+    margin-left: 5em;
+    width: 40%;
+    padding-top: 100px;
+    padding-bottom:100px;
+}
+
+/* Third section */
+
+#third_sec {
+    background-color: #e22d0e;
+    color: white;
+    padding: 4em 0 5em 0;
+    text-align: center;
+}
+
+#third_sec h2 {
+    color: white;
+    font-size: 2em;
+}
+
+blockquote {
+    font-style: italic;
+    margin: 1em 0;
+    font-size: 1.2em;
+}
+
+#third_sec p {
+    font-size: 1.2em;
+}
+
+#third_sec p#sec_par {
+    font-size: 1em;
+}
+
+/* Forth section */
+
+#forth_sec {
+    margin: 6em 0;
+    text-align: center;
+}
+
+#forth_sec div {
+    border: 1px solid #dee1e3;
+    margin: 0 1em;
+    display: inline-block;
+    width: 25%;
+    max-width: 500px;
+    height: 500px;
+}
+
+#forth_sec div img {
+    width: 100%;
+    height: 60%; 
+}
+
+#forth_sec div p {
+    padding: 0 1em 2em 1em;
+}
+
+/* Footer */
+
+#footer {
+    background-color: #25a2c3;
+    color: #c8e7f0;
+    text-align: center;
+    padding: 3em 0;
+}
+
+#footer h2 {
+    color: white;
+    font-size: 2.5em;
+}
+
+#footer a {
+    color: #c8e7f0;
+}
+
+#footer address p {
+    font-size: 1.2em;
+    text-align: start;
+    width: 350px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#footer i {
+    margin-right: 0.3em;
+    color: white;
+}
+
+#footer > p {
+    display: inline-block;
+    font-size: 1em;
+    padding: 2em 0;
+    border-top: 1px solid #c8e7f0;
+    margin: 2em 0;
+}
